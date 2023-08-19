@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: deep_sort_app",
+            "type": "python",
+            "request": "launch",
+            "program": "deep_sort_app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--sequence_dir=/Users/zoupeng/datasets/MOT16/test/MOT16-06",
+                "--detection_file=./resources/detections/MOT16_POI_test/MOT16-06.npy",
+                "--min_confidence=0.3",
+                "--nn_budget=100",
+                "--display=True",
+            ]
+        }
+    ]
+}
