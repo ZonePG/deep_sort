@@ -12,8 +12,8 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "--sequence_dir=/Users/zoupeng/datasets/MOT16/test/MOT16-06",
-                "--detection_file=./resources/detections/MOT16_POI_test/MOT16-06.npy",
+                "--sequence_dir=/Users/zoupeng/datasets/MOT16/test/MOT16-01",
+                "--detection_file=./resources/detections/MOT16_POI_test/MOT16-01.npy",
                 "--min_confidence=0.3",
                 "--nn_budget=100",
                 "--display=True",
